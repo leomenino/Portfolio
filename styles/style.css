@@ -59,7 +59,7 @@ a {
 
 /* Buttons */
 .btn {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background: white;
     border: 1.5px solid var(--borderColor);
     cursor: pointer;
@@ -102,7 +102,7 @@ a {
 .grid-3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    
+    gap: 3rem;
 }
 
 /* Logo and Navigation Menu */
@@ -346,7 +346,7 @@ text-align: center;
 }
 
 .contact {
-    padding: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 3rem;
 }
