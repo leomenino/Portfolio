@@ -452,7 +452,7 @@ html {
 
 .back-to-top {
     position: fixed;
-    bottom: 2rem;
+    bottom: 1rem;
     right: inline-flex;
     align-items: center;
     justify-content: center;
@@ -465,7 +465,7 @@ html {
 
 .back-to-top span {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
     transition: 0.2s ease-out;
 }
 
