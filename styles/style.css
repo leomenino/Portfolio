@@ -8,7 +8,7 @@
     --lineColor: #d9d9d9;
 
     --primaryBackgroundColor: #fff;
-    --secondaryBackgroundColor: #fbfbfb;
+    --secondaryBackgroundColor: #f1f1f1;
     --thirdBackgroundColor: #f5f3fe;
 
     --primaryIconColor: #7e74f1;
@@ -74,6 +74,9 @@ a {
 .section-title {
  margin: 1rem 0 4rem;
  font-size: 2rem;
+ align-content: center;
+ justify-content: center;
+
 }
 
 .pre-title {
@@ -84,7 +87,9 @@ a {
     padding-left: 40px;
     width: fit-content;
     font-weight: 400;
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
+    justify-content: center;
+    align-content: center; 
 }
 
 .pre-title::before {
@@ -113,7 +118,7 @@ a {
 }
 
 .nav ul {
-    list-style: none;
+    list-style-type: none;
     display: flex;
     gap: 3rem;
 }
@@ -289,13 +294,14 @@ text-align: center;
 }
 
 .skills-grid {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 3rem;
+    text-align: center;
 }
 
 .education {
-   display: flex;
+   display:block;
    gap: 2rem; 
 }
 
@@ -330,14 +336,15 @@ text-align: center;
 }
 
 .skills-list {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 1.5rem;
+    justify-content: center;
 }
 
 .skills-right ul {
     line-height: 2rem;
     padding: 0 1rem;
+    list-style-type: none;
 }
 
 /* Contact Section */

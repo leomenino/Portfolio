@@ -10,6 +10,7 @@
 
    .skills-right ul li {
       font-size: 0.9rem;
+      justify-content: center;
    }
 }
 
@@ -67,6 +68,7 @@
       .section-title {
          font-size: 1.6rem;
          margin: 0.6rem 0 2.5rem;
+         justify-content: center;
       }
 
       .pre-title {
@@ -104,6 +106,7 @@
       /* Skills Section */
       .skills-grid {
          gap: 1rem;
+         display: block;
       }
 
       /* Footer Section */
@@ -116,6 +119,7 @@
     /* Titles */
    .section-title {
       font-size: 1.3rem;
+      justify-content: center;
    } 
 
    .pre-title {
